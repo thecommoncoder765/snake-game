@@ -94,6 +94,13 @@ def move():
         head.setx(x - movement_value_snake)
 
 
+def calc():
+    num1 = input("Enter first number:")
+    num2 = input("Enter seccond number:")
+
+    anwser = float(num1) + float(num2)
+    print(anwser)
+
 while True:
     wn.update()
 
